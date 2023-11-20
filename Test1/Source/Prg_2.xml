@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="test1" ISN_2="1" LastIsn="1" id="2">
-          <LastModified _date="738838" _time="66485" date="14/11/2023" time="18:28:05"/>
+          <LastModified _date="738844" _time="56362" date="20/11/2023" time="15:39:22"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="2"/>
         <Resource>
           <Columns>
             <Column id="1" name="var">
@@ -38,6 +38,15 @@
                 <Picture id="157" valUnicode="10"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="2" name="var_2">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -122,6 +131,18 @@
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
                   <Column val="1"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="2" FlowIsn="4" id="2">
+                  <Column val="2"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
