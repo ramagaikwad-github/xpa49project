@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="test2" ISN_2="1" LastIsn="1" id="5">
-          <LastModified _date="738845" _time="68870" date="21/11/2023" time="19:07:50"/>
+        <Header Description="test23" ISN_2="1" LastIsn="1" id="5">
+          <LastModified _date="738845" _time="69345" date="21/11/2023" time="19:15:45"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -159,7 +159,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="test2"/>
+              <FormName id="311" valUnicode="test23"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
