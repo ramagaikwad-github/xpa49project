@@ -44,7 +44,26 @@
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="738867" _time="44108" date="13/12/2023" time="12:15:08"/>
+      <SourceFileTimeStamp _date="738867" _time="45086" date="13/12/2023" time="12:31:26"/>
+    </Program>
+    <Program>
+      <Header Description="test main" ISN_2="1" LastIsn="1" id="5">
+        <LastModified _date="738867" _time="64953" date="13/12/2023" time="18:02:33"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+      </Header>
+      <SourceFileTimeStamp _date="738867" _time="45153" date="13/12/2023" time="12:32:33"/>
     </Program>
   </ProgramsRepositoryHeaders>
 
