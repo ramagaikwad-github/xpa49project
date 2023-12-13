@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="3">
-          <LastModified date="00/00/0000" time="00:00:00"/>
+        <Header Description="wew" ISN_2="1" LastIsn="1" id="3">
+          <LastModified _date="738867" _time="64910" date="13/12/2023" time="18:01:50"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -36,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -115,7 +115,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="wew"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
