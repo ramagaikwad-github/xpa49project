@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="test main" ISN_2="1" LastIsn="1" id="2">
-          <LastModified _date="738867" _time="63074" date="13/12/2023" time="17:31:14"/>
+          <LastModified _date="738867" _time="63908" date="13/12/2023" time="17:45:08"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="6"/>
+        <ItemIsn val="8"/>
         <Resource>
           <Columns>
             <Column id="1" name="1">
@@ -83,6 +83,24 @@
                 <Picture id="157" valUnicode="11"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="11"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="7">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="12"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="12"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="8" name="8">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="12"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="12"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -242,13 +260,36 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="7" FlowIsn="9" id="7">
+                  <Column val="7"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="8" FlowIsn="10" id="8">
+                  <Column val="8"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="13" _last_test_id="13" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="test main"/>
             </PropertyList>
@@ -279,6 +320,7 @@
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="1"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -297,6 +339,7 @@
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="2"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -315,6 +358,7 @@
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="3"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -333,6 +377,7 @@
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="4"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
@@ -351,6 +396,7 @@
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="5"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
@@ -369,6 +415,7 @@
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="6"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
