@@ -24,11 +24,11 @@
           </ReturnValue>
           <SqlWhereExist val="N"/>
           <TaskType val="O"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738867" _time="40622" date="13/12/2023" time="11:17:02"/>
+          <LastModified _date="738905" _time="71186" date="20/01/2024" time="19:46:26"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
@@ -139,7 +139,6 @@
         <TaskForms>
           <FormEntry _last_isn="2" _last_test_id="2" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Test1"/>
             </PropertyList>
@@ -152,6 +151,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="1" id="1">
@@ -165,6 +165,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="var1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
