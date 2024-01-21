@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="test2" ISN_2="1" LastIsn="1" id="7">
-          <Public val="test2"/>
+          <Public val="thrb"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738905" _time="71185" date="20/01/2024" time="19:46:25"/>
+          <LastModified _date="738906" _time="68089" date="21/01/2024" time="18:54:49"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
