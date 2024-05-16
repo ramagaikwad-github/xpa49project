@@ -56,3 +56,4 @@
    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
    at System.Threading.ThreadHelper.ThreadStart(), Program: "test main".
+ <-1> 17/05/2024 02:07:37.294     [Error  ] - Data Sources full open of "D:\MSE\XPA\XPA49Studio\Projects\GItNumberingIssue\Source\DataSources.xml" ("D:\MSE\XPA\XPA49Studio\Projects\GItNumberingIssue\Source\DataSourcesIndex.xml" is outdated! It is recommended to regenerate the project's 'Source' folder from an up-to-date export file.)

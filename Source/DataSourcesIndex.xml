@@ -5,16 +5,18 @@
     <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="0"/>
+    <LastIsn val="2"/>
     <LastIsnFolder val="0"/>
   </Header>
 
   <DataRepositoryProperties/>
 
   <DataSourceRepository>
-    <DataObjects/>
+    <DataObjects>
+      <DataObject PhysicalName="test" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="2097154" length="1614" name="test" offset="245"/>
+    </DataObjects>
   </DataSourceRepository>
 
-  <LastModified val="31107024-190102243"/>
+  <LastModified val="31107024-48165137"/>
 
 </Application>
